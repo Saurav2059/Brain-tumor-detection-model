@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Detection using Deep Learning (VGG16 + Transfer Learning)
+# Brain Tumor Detection using Deep Learning (VGG16 + Transfer Learning)
 
 This project uses **Deep Learning** with a **VGG16 pre-trained model** and **Transfer Learning** to classify MRI brain scans as tumor or non-tumor.  
 The goal is to provide an accurate, automated approach for early tumor detection, which can assist radiologists in diagnosis.
@@ -12,7 +12,7 @@ Pituitary
 
 ---
 
-## 📌 Overview
+## Overview
 
 Brain tumors can be life-threatening if not detected early.  
 Manual detection from MRI scans is time-consuming and prone to human error.  
@@ -27,7 +27,7 @@ This project leverages **Convolutional Neural Networks (CNNs)** and **Transfer L
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset] (e.g., Kaggle)
 - **Classes:** Tumor / Non-tumor (or multiple tumor types)
@@ -39,7 +39,7 @@ This project leverages **Convolutional Neural Networks (CNNs)** and **Transfer L
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Base Model:** VGG16 (pre-trained on ImageNet)
 - **Custom Layers:** Flatten → Dense → Dropout → Output Layer (Softmax/Sigmoid)
@@ -49,7 +49,7 @@ This project leverages **Convolutional Neural Networks (CNNs)** and **Transfer L
 
 ---
 
-## ⚙ Installation
+## Installation
 
 Before running the project, install the dependencies:
 
